@@ -1,0 +1,21 @@
+name: NCRE-DB CI
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the master branch
+  push:
+    branches:
+      - master
+    paths-ignore: # ignoring paths
+      - README.md
+      - LICENSE
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Convert
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: --output="全国计算机等级考试三级数据库技术.pdf" "全国计算机等级考试三级数据库技术.md"
