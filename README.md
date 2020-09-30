@@ -1,4 +1,8 @@
-![logo](D:\code\NCRE\images\logo.png)
+<p align="center">
+  <a href="https://github.com/dong-sir/NCRE-DB">
+    <img src="images/logo.png">
+  </a>
+</p>
 
 # NCRE-DB
 
