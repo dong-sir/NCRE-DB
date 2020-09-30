@@ -18,4 +18,4 @@ jobs:
       - name: Convert
         uses: docker://pandoc/latex:2.9
         with:
-          args: --output="全国计算机等级考试三级数据库技术.pdf" "全国计算机等级考试三级数据库技术.md"
+          args: --pdf-engine=xelatex --output="全国计算机等级考试三级数据库技术.pdf" "全国计算机等级考试三级数据库技术.md"
