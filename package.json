@@ -1,0 +1,24 @@
+{
+  "name": "ncre-db",
+  "version": "1.0.0",
+  "description": "![logo](D:\\code\\NCRE\\images\\logo.png)",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dong-sir/NCRE-DB.git"
+  },
+  "keywords": [
+    "ncre",
+    "ncre-database",
+    "计算机等级考试"
+  ],
+  "author": "dongsir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dong-sir/NCRE-DB/issues"
+  },
+  "homepage": "https://github.com/dong-sir/NCRE-DB#readme"
+}
